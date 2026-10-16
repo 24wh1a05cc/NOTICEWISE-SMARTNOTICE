@@ -1,0 +1,74 @@
+# ─── Firebase configuration (NEVER commit these) ───────────────────────────
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# ─── Environment / Secrets ──────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Android signing keys ───────────────────────────────────────────────────
+*.keystore
+*.jks
+key.properties
+android/app/debug.keystore
+
+# ─── Flutter / Dart / Pub ───────────────────────────────────────────────────
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# ─── Generated code (build_runner output) ───────────────────────────────────
+# Uncomment the lines below if you prefer NOT to commit generated files.
+# *.g.dart
+# *.freezed.dart
+# Most teams commit generated files so CI doesn't require build_runner.
+
+# ─── Android build artifacts ────────────────────────────────────────────────
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle/
+/android/captures/
+/android/local.properties
+
+# ─── iOS build artifacts ────────────────────────────────────────────────────
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+
+# ─── IDE ─────────────────────────────────────────────────────────────────────
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/settings.json
+.vscode/*.code-workspace
+
+# ─── macOS / Windows / Linux ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.class
+*.log
+*.pyc
+*.swp
+.atom/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ─── Symbolication / Obfuscation ────────────────────────────────────────────
+app.*.symbols
+app.*.map.json
+
+# ─── Widget Preview ──────────────────────────────────────────────────────────
+.widget_preview/
